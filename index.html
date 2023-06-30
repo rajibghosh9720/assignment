@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Assignment</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="left-panel">
+      <ul>
+        <li><a href="#" onclick="showContent('home')">Home</a></li>
+        <li><a href="#" onclick="showContent('contact')">Contact</a></li>
+        <li>
+          <a href="#" onclick="showContent('information')">Information</a>
+        </li>
+        <li><a href="#" onclick="showContent('guide')">Guide</a></li>
+      </ul>
+    </div>
+    <div id="content-wrapper">
+      <div id="content">
+        <div id="home" class="content">
+          <h2>Home</h2>
+          <p>Welcome to the home page!</p>
+        </div>
+        <div id="contact" class="content">
+          <h2>Contact</h2>
+          <p>Contact information goes here.</p>
+        </div>
+        <div id="information" class="content">
+          <h2>Information</h2>
+          <p>Additional information goes here.</p>
+        </div>
+        <div id="guide" class="content">
+          <h2>Guide</h2>
+          <p>Guidance and instructions go here.</p>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
